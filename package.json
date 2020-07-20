@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "es6-promise": "^4.2.8",
+    "google-spreadsheet": "^3.0.11",
+    "isomorphic-fetch": "^2.2.1",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
